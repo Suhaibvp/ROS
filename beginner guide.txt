@@ -70,3 +70,31 @@ You should see the talker saying that it’s Publishing messages and the listene
 getting started
 ---------------
 https://youtu.be/b6Gb8eCAoQg?feature=shared
+
+Create Workspace/Package
+-----------------
+step1:
+create a workspace 
+- mkdir test_ws
+create source folder inside workspace 
+- cd test_ws
+- mkdir src
+install packages to create packages
+- sudo apt install python3-colcon-common-extensions
+- colcon build --symlink-install
+create package
+- cd src
+- ros2 pkg create --build-type ament_cmake <package_name>
+
+install package from online
+ inside the same src clone repositery 
+- git clone https://github.com/ros/ros_tutorials.git -b humble
+ get back to worspace and build it 
+- cd ..
+-  colcon build --symlink-install
+source the new workspace installer in .bashrc
+- nano .bashrc
+  bottum of the script enter
+- source ~/test_ws/install/setup.bash #path of the setup of workspace 
+
+
