@@ -1,0 +1,14 @@
+- create package 
+ros2 pkg create --build-type ament_cmake <package_name>
+
+- initialize workspace 
+colcon build --symlink-install
+
+- source workspace 
+source <workspace_name>/install/setup.bash
+
+- check the datatype topic 
+ros2 interface show (and then type tab and it will show all available options)
+(select datatype you want and then enter )
+
+wget https://dr-download.ti.com/software-development/software-development-kit-sdk/MD-O34VjGn5mM/09.02.00.05/ti-processor-sdk-linux-edgeai-j721s2-evm-09_02_00_05-Linux-x86-Install.bin
