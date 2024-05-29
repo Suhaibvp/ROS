@@ -56,3 +56,90 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
+
+
+import pigpio
+from time import sleep
+
+in1 = 24
+in2 = 23
+en = 25
+temp1 = 1
+
+# Initialize pigpio
+pi = pigpio.pi()
+
+# Set GPIO modes
+pi.set_mode(in1, pigpio.OUTPUT)
+pi.set_mode(in2, pigpio.OUTPUT)
+pi.set_mode(en, pigpio.OUTPUT)
+
+# Set initial output values
+pi.write(in1, 0)
+pi.write(in2, 0)
+
+# Initialize PWM on the enable pin
+pi.set_PWM_frequency(en, 1000)
+pi.set_PWM_dutycycle(en, 64)  # 25% duty cycle (0-255 scale)
+
+print("\n")
+print("The default speed & direction of motor is LOW & Forward.....")
+print("r-run s-stop f-forward b-backward l-low m-medium h-high e-exit")
+print("\n")
+
+while True:
+    x = input()  # Use input() for Python 3
+
+    if x == 'r':
+        print("run")
+        if temp1 == 1:
+            pi.write(in1, 1)
+            pi.write(in2, 0)
+            print("forward")
+        else:
+            pi.write(in1, 0)
+            pi.write(in2, 1)
+            print("backward")
+
+    elif x == 's':
+        print("stop")
+        pi.write(in1, 0)
+        pi.write(in2, 0)
+
+    elif x == 'f':
+        print("forward")
+        pi.write(in1, 1)
+        pi.write(in2, 0)
+        temp1 = 1
+
+    elif x == 'b':
+        print("backward")
+        pi.write(in1, 0)
+        pi.write(in2, 1)
+        temp1 = 0
+
+    elif x == 'l':
+        print("low")
+        pi.set_PWM_dutycycle(en, 64)  # 25% duty cycle (0-255 scale)
+
+    elif x == 'm':
+        print("medium")
+        pi.set_PWM_dutycycle(en, 128)  # 50% duty cycle (0-255 scale)
+
+    elif x == 'h':
+        print("high")
+        pi.set_PWM_dutycycle(en, 192)  # 75% duty cycle (0-255 scale)
+
+    elif x == 'e':
+        pi.write(in1, 0)
+        pi.write(in2, 0)
+        pi.stop()
+        break
+
+    else:
+        print("<<<  wrong data  >>>")
+        print("please enter the defined data to continue.....")
+
+
+sudo pigpiod
