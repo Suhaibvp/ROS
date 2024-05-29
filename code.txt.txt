@@ -143,3 +143,125 @@ while True:
 
 
 sudo pigpiod
+
+
+import pigpio
+from time import sleep
+
+# Motor 1 GPIO pins
+in1 = 24
+in2 = 23
+en1 = 25
+
+# Motor 2 GPIO pins
+in3 = 17
+in4 = 27
+en2 = 22
+
+# Initialize pigpio
+pi = pigpio.pi()
+
+# Set GPIO modes for Motor 1
+pi.set_mode(in1, pigpio.OUTPUT)
+pi.set_mode(in2, pigpio.OUTPUT)
+pi.set_mode(en1, pigpio.OUTPUT)
+
+# Set GPIO modes for Motor 2
+pi.set_mode(in3, pigpio.OUTPUT)
+pi.set_mode(in4, pigpio.OUTPUT)
+pi.set_mode(en2, pigpio.OUTPUT)
+
+# Set initial output values
+pi.write(in1, 0)
+pi.write(in2, 0)
+pi.write(in3, 0)
+pi.write(in4, 0)
+
+# Initialize PWM on the enable pins
+pi.set_PWM_frequency(en1, 1000)
+pi.set_PWM_frequency(en2, 1000)
+pi.set_PWM_dutycycle(en1, 64)  # 25% duty cycle (0-255 scale)
+pi.set_PWM_dutycycle(en2, 64)  # 25% duty cycle (0-255 scale)
+
+print("\n")
+print("The default speed & direction of motors is LOW & Forward.....")
+print("r-run s-stop f-forward b-backward l-low m-medium h-high e-exit")
+print("\n")
+
+temp1 = 1
+temp2 = 1
+
+while True:
+    x = input()  # Use input() for Python 3
+
+    if x == 'r':
+        print("run")
+        if temp1 == 1:
+            pi.write(in1, 1)
+            pi.write(in2, 0)
+            print("Motor 1 forward")
+        else:
+            pi.write(in1, 0)
+            pi.write(in2, 1)
+            print("Motor 1 backward")
+
+        if temp2 == 1:
+            pi.write(in3, 1)
+            pi.write(in4, 0)
+            print("Motor 2 forward")
+        else:
+            pi.write(in3, 0)
+            pi.write(in4, 1)
+            print("Motor 2 backward")
+
+    elif x == 's':
+        print("stop")
+        pi.write(in1, 0)
+        pi.write(in2, 0)
+        pi.write(in3, 0)
+        pi.write(in4, 0)
+
+    elif x == 'f':
+        print("forward")
+        pi.write(in1, 1)
+        pi.write(in2, 0)
+        pi.write(in3, 1)
+        pi.write(in4, 0)
+        temp1 = 1
+        temp2 = 1
+
+    elif x == 'b':
+        print("backward")
+        pi.write(in1, 0)
+        pi.write(in2, 1)
+        pi.write(in3, 0)
+        pi.write(in4, 1)
+        temp1 = 0
+        temp2 = 0
+
+    elif x == 'l':
+        print("low")
+        pi.set_PWM_dutycycle(en1, 64)  # 25% duty cycle (0-255 scale)
+        pi.set_PWM_dutycycle(en2, 64)  # 25% duty cycle (0-255 scale)
+
+    elif x == 'm':
+        print("medium")
+        pi.set_PWM_dutycycle(en1, 128)  # 50% duty cycle (0-255 scale)
+        pi.set_PWM_dutycycle(en2, 128)  # 50% duty cycle (0-255 scale)
+
+    elif x == 'h':
+        print("high")
+        pi.set_PWM_dutycycle(en1, 192)  # 75% duty cycle (0-255 scale)
+        pi.set_PWM_dutycycle(en2, 192)  # 75% duty cycle (0-255 scale)
+
+    elif x == 'e':
+        pi.write(in1, 0)
+        pi.write(in2, 0)
+        pi.write(in3, 0)
+        pi.write(in4, 0)
+        pi.stop()
+        break
+
+    else:
+        print("<<<  wrong data  >>>")
+        print("please enter the defined data to continue.....")
