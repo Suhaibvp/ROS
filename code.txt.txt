@@ -9,7 +9,7 @@ class VisionbotDriver(Node):
     def __init__(self):
         super().__init__('Visionbot_driver')
         self.line_error_subscriber = self.create_subscription(Int16, '/line_following_error', self.update_motor_speed, 10)
-        self.motor_controller = MotorSetup(24, 23, 25, 15, 14, 4)
+        self.motor_controller = MotorSetup(24, 23, 25, 20, 16, 21)
         self.standard_speed = 26  # Base speed for the wheels
         self.velocity_right_wheel = 0
         self.velocity_left_wheel = 0
