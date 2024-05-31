@@ -1,0 +1,15 @@
+/home/suhaib/linedetect_ws/install/cam_capture/share/ament_index/resource_index/package_run_dependencies/cam_capture
+/home/suhaib/linedetect_ws/install/cam_capture/share/ament_index/resource_index/parent_prefix_path/cam_capture
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/environment/ament_prefix_path.sh
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/environment/ament_prefix_path.dsv
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/environment/path.sh
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/environment/path.dsv
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/local_setup.bash
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/local_setup.sh
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/local_setup.zsh
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/local_setup.dsv
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/package.dsv
+/home/suhaib/linedetect_ws/install/cam_capture/share/ament_index/resource_index/packages/cam_capture
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/cmake/cam_captureConfig.cmake
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/cmake/cam_captureConfig-version.cmake
+/home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/package.xml

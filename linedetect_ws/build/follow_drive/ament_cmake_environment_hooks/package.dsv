@@ -1,0 +1,4 @@
+source;share/follow_drive/local_setup.bash
+source;share/follow_drive/local_setup.dsv
+source;share/follow_drive/local_setup.sh
+source;share/follow_drive/local_setup.zsh

@@ -1,0 +1,44 @@
+[0.028s] Invoking command in '/home/suhaib/linedetect_ws/build/cam_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/suhaib/linedetect_ws/src/cam_processor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suhaib/linedetect_ws/install/cam_processor
+[0.324s] -- The C compiler identification is GNU 11.4.0
+[0.980s] -- The CXX compiler identification is GNU 11.4.0
+[1.483s] -- Detecting C compiler ABI info
+[1.682s] -- Detecting C compiler ABI info - done
+[1.691s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.692s] -- Detecting C compile features
+[1.692s] -- Detecting C compile features - done
+[1.696s] -- Detecting CXX compiler ABI info
+[1.897s] -- Detecting CXX compiler ABI info - done
+[1.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.906s] -- Detecting CXX compile features
+[1.906s] -- Detecting CXX compile features - done
+[1.912s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.109s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.218s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.313s] -- Added test 'lint_cmake' to check CMake code style
+[2.315s] -- Added test 'xmllint' to check XML markup files
+[2.321s] -- Configuring done
+[2.335s] -- Generating done
+[2.336s] -- Build files have been written to: /home/suhaib/linedetect_ws/build/cam_processor
+[2.341s] Invoked command in '/home/suhaib/linedetect_ws/build/cam_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/suhaib/linedetect_ws/src/cam_processor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suhaib/linedetect_ws/install/cam_processor
+[2.343s] Invoking command in '/home/suhaib/linedetect_ws/build/cam_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suhaib/linedetect_ws/build/cam_processor -- -j4 -l4
+[2.381s] Invoked command in '/home/suhaib/linedetect_ws/build/cam_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suhaib/linedetect_ws/build/cam_processor -- -j4 -l4
+[2.408s] Invoking command in '/home/suhaib/linedetect_ws/build/cam_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suhaib/linedetect_ws/build/cam_processor
+[2.415s] -- Install configuration: ""
+[2.416s] -- Execute custom install script
+[2.419s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/ament_index/resource_index/package_run_dependencies/cam_processor
+[2.431s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/ament_index/resource_index/parent_prefix_path/cam_processor
+[2.441s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/environment/ament_prefix_path.sh
+[2.450s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/environment/ament_prefix_path.dsv
+[2.461s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/environment/path.sh
+[2.471s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/environment/path.dsv
+[2.482s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/local_setup.bash
+[2.491s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/local_setup.sh
+[2.500s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/local_setup.zsh
+[2.509s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/local_setup.dsv
+[2.517s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/package.dsv
+[2.527s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/ament_index/resource_index/packages/cam_processor
+[2.537s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/cmake/cam_processorConfig.cmake
+[2.547s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/cmake/cam_processorConfig-version.cmake
+[2.556s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/package.xml
+[2.567s] Invoked command in '/home/suhaib/linedetect_ws/build/cam_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suhaib/linedetect_ws/build/cam_processor

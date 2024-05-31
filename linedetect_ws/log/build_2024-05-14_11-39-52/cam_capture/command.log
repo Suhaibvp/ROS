@@ -1,0 +1,4 @@
+Invoking command in '/home/suhaib/linedetect_ws/build/cam_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suhaib/linedetect_ws/build/cam_capture -- -j4 -l4
+Invoked command in '/home/suhaib/linedetect_ws/build/cam_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suhaib/linedetect_ws/build/cam_capture -- -j4 -l4
+Invoking command in '/home/suhaib/linedetect_ws/build/cam_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suhaib/linedetect_ws/build/cam_capture
+Invoked command in '/home/suhaib/linedetect_ws/build/cam_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suhaib/linedetect_ws/build/cam_capture

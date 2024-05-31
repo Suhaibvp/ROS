@@ -1,0 +1,21 @@
+[0.037s] Invoking command in '/home/suhaib/linedetect_ws/build/cam_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suhaib/linedetect_ws/build/cam_capture -- -j4 -l4
+[0.144s] Invoked command in '/home/suhaib/linedetect_ws/build/cam_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/suhaib/linedetect_ws/build/cam_capture -- -j4 -l4
+[0.202s] Invoking command in '/home/suhaib/linedetect_ws/build/cam_capture': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suhaib/linedetect_ws/build/cam_capture
+[0.215s] -- Install configuration: ""
+[0.217s] -- Execute custom install script
+[0.219s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/ament_index/resource_index/package_run_dependencies/cam_capture
+[0.220s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/ament_index/resource_index/parent_prefix_path/cam_capture
+[0.220s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/environment/ament_prefix_path.sh
+[0.221s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/environment/path.sh
+[0.230s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/environment/path.dsv
+[0.233s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/local_setup.bash
+[0.234s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/local_setup.sh
+[0.235s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/local_setup.zsh
+[0.235s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/local_setup.dsv
+[0.236s] -- Symlinking: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/package.dsv
+[0.259s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/ament_index/resource_index/packages/cam_capture
+[0.260s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/cmake/cam_captureConfig.cmake
+[0.261s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/cmake/cam_captureConfig-version.cmake
+[0.261s] -- Up-to-date symlink: /home/suhaib/linedetect_ws/install/cam_capture/share/cam_capture/package.xml
+[0.289s] Invoked command in '/home/suhaib/linedetect_ws/build/cam_capture' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/suhaib/linedetect_ws/build/cam_capture

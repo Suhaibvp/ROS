@@ -1,0 +1,15 @@
+/home/suhaib/linedetect_ws/install/follow_drive/share/ament_index/resource_index/package_run_dependencies/follow_drive
+/home/suhaib/linedetect_ws/install/follow_drive/share/ament_index/resource_index/parent_prefix_path/follow_drive
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/environment/ament_prefix_path.sh
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/environment/ament_prefix_path.dsv
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/environment/path.sh
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/environment/path.dsv
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/local_setup.bash
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/local_setup.sh
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/local_setup.zsh
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/local_setup.dsv
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/package.dsv
+/home/suhaib/linedetect_ws/install/follow_drive/share/ament_index/resource_index/packages/follow_drive
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/cmake/follow_driveConfig.cmake
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/cmake/follow_driveConfig-version.cmake
+/home/suhaib/linedetect_ws/install/follow_drive/share/follow_drive/package.xml

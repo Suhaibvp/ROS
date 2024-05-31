@@ -1,0 +1,15 @@
+/home/suhaib/linedetect_ws/install/cam_processor/share/ament_index/resource_index/package_run_dependencies/cam_processor
+/home/suhaib/linedetect_ws/install/cam_processor/share/ament_index/resource_index/parent_prefix_path/cam_processor
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/environment/ament_prefix_path.sh
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/environment/ament_prefix_path.dsv
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/environment/path.sh
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/environment/path.dsv
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/local_setup.bash
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/local_setup.sh
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/local_setup.zsh
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/local_setup.dsv
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/package.dsv
+/home/suhaib/linedetect_ws/install/cam_processor/share/ament_index/resource_index/packages/cam_processor
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/cmake/cam_processorConfig.cmake
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/cmake/cam_processorConfig-version.cmake
+/home/suhaib/linedetect_ws/install/cam_processor/share/cam_processor/package.xml
